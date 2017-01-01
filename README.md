@@ -2,7 +2,7 @@
 Arduino library to read a 2 axis analog joystick.
   
 This library was designed for and tested with this product:
-(https://www.adafruit.com/products/512)
+[https://www.adafruit.com/products/512]
 It should work with any analog joystick. It also includes support for
 a button like the one in the product above.
 
@@ -24,9 +24,9 @@ The data is currently mapped from 0 - 1023 to -255 - 255
 
 The data is returned in a struct
 ```C
-  struct {
+struct {
     joyX: converted value from the x axis
     joyY: converted value from the y axis
     joyButton: 0/1 whether button is pressed
-	}
+}
 ```
