@@ -1,8 +1,14 @@
-/*
-  CW_Joystick.h - Library for reading a 2 axis joystick.
+/**********************************************************************
+  CW_Joystick.cpp - Library for reading a 2 axis analog joystick.
+  
+	This library was designed for and tested with this product:
+  https://www.adafruit.com/products/512
+  It should work with any analog joystick. It also includes support for
+  a button like the one in the product above.
+
   Created by Chris Ward, Dec, 2016.
   MIT License. See included License file.
-*/
+**********************************************************************/
 
 #include "Arduino.h"
 #include "CW_Joystick.h"
