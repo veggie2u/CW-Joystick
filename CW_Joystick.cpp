@@ -39,6 +39,9 @@ JoyValue CW_Joystick::read()
 	return joystick;
 }
 
+// Convert the value to something to send to a stepper motor.
+// Change the value here for your needs.
+// This function also takes care of analog 'jitter' 
 int CW_Joystick::convert(int value)
 {
   int joy = map(value, 0, 1023, -255, 255);

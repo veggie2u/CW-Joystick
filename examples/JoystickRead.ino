@@ -31,7 +31,7 @@ void setup() {
 }
 
 void loop() {
-	// read the joystic data and covert
+	// read the joystick data and covertf
   joy = joystick.read();
 
 	// print the data to the console

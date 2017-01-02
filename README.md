@@ -20,7 +20,10 @@ You then read raw data with
 
 Or read the converted values with
 `joystick.read();`
-The data is currently mapped from 0 - 1023 to -255 - 255
+The data is currently mapped from 0 => 1023 to -255 => 255.
+For now, change this in the .cpp file. I started making methods to 
+change these values, but decided it was overkill for reading a couple
+of analog pins.
 
 The data is returned in a struct
 ```C
