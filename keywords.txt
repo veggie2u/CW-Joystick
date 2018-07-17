@@ -1,9 +1,9 @@
-CW_Joystick KEYWORD1
-readRaw KEYWORD2
-read KEYWORD2
-convert KEYWORD2
+CW_Joystick	KEYWORD1
+readRaw	KEYWORD2
+read	KEYWORD2
+convert	KEYWORD2
 
-JoyValue KEYWORD1
-joyX KEYWORD2
-joyY KEYWORD2
-joyButton KEYWORD2
+JoyValue	KEYWORD1
+joyX	KEYWORD2
+joyY	KEYWORD2
+joyButton	KEYWORD2
